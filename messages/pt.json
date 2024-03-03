@@ -1,0 +1,29 @@
+{
+    "Index": {
+        "title": "Eventos",
+        "noData": "Nenhum evento registrado!"
+    },
+    "Form": {
+        "add": "Adicionar",
+        "edit": "Editar",
+        "name": "Nome:",
+        "date": "Data:",
+        "description": "Descrição:",
+        "cancel": "Cancelar",
+        "dateRequired": "Data é obrigatório!",
+        "descriptionLength": "Descrição deve ter pelo menos 15 caracteres",
+        "nameRequired": "Nome é obrigatório!",
+        "descriptionRequired": "Descrição  é obrigatório!",
+        "successEdited": "Evento Editado!",
+        "successCreate": "Evento Adicionado!"
+    },
+    "List": {
+        "seeDetails": "Ver detalhes",
+        "closeDetails": "Fechar detalhes",
+        "edit": "Editar",
+        "delete": "Deletar",
+        "name": "Nome:",
+        "date": "Data:",
+        "description": "Descrição:"
+    }
+}

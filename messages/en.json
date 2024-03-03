@@ -1,0 +1,29 @@
+{
+    "Index": {
+        "title": "Events",
+        "noData": "No events registered!"
+    },
+    "Form": {
+        "add": "Add",
+        "edit": "Edit",
+        "name": "Name:",
+        "date": "Date:",
+        "description": "Description:",
+        "cancel": "Cancel",
+        "dateRequired": "Date is required!",
+        "descriptionLength": "Description must have at least 15 characters",
+        "nameRequired": "Name is required!",
+        "descriptionRequired": "Description is required!",
+        "successEdited": "Event Edited!",
+        "successCreate": "Event Added!"
+    },
+    "List": {
+        "seeDetails": "See Details",
+        "closeDetails": "Close Details",
+        "edit": "Edit",
+        "delete": "Delete",
+        "name": "Name:",
+        "date": "Date:",
+        "description": "Description:"
+    }
+}
