@@ -35,6 +35,7 @@ test.describe("crud events", () => {
     await page.getByTestId("description-field").fill("Test New Event For Test");
     await page.getByTestId("submit-button").click();
     await page.getByTestId("success-form").click();
+
     expect(await page.getByTestId("success-form").textContent()).toBe(
       "Evento Editado!"
     );
@@ -43,5 +44,9 @@ test.describe("crud events", () => {
       .getByTestId(`event-${nameFinder}`)
       .getByTestId("delete-button")
       .click();
+
+    page;
+
+    await expect(await page.getByTestId(`event-${nameFinder}`)).toHaveCount(0);
   });
 });
