@@ -24,7 +24,11 @@ export default function ListEvents() {
   return (
     <div className="space-y-4">
       {eventStore.posts?.map((event) => (
-        <div key={event.id} className="border-2 p-4 md:p-6 space-y-3">
+        <div
+          key={event.id}
+          data-testid={`event-${event.name}`}
+          className="border-2 p-4 md:p-6 space-y-3"
+        >
           <div className="space-y-2">
             <div>
               <p>

@@ -38,7 +38,7 @@ export default function Delete({ id }: IProps) {
   };
 
   return (
-    <Button typeColor="red" onClick={deleteEvent}>
+    <Button data-testid="delete-button" typeColor="red" onClick={deleteEvent}>
       <>
         {loading ? (
           <div className="mr-3">

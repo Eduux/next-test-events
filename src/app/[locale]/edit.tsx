@@ -20,7 +20,7 @@ export default function Edit({ id }: IProps) {
   };
 
   return (
-    <Button typeColor="green" onClick={editEvent}>
+    <Button data-testid="edit-button" typeColor="green" onClick={editEvent}>
       <PenIcon size={18} className="mr-3" />
       {t("edit")}
     </Button>
