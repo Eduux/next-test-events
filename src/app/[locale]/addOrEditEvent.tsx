@@ -40,9 +40,9 @@ export default function AddOrEditEvent() {
   const mustEditThisEvent = eventStore.postToEdit;
 
   const setEdit = () => {
+    reset();
     if (!!mustEditThisEvent) {
       wiwdowGoTop();
-      reset();
       Object.entries(mustEditThisEvent).forEach(([name, value]) => {
         setValue(name as keyof IEvent, value);
       });

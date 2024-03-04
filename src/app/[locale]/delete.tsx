@@ -23,6 +23,10 @@ export default function Delete({ id }: IProps) {
   const deleteEvent = async () => {
     setLoading(true);
     try {
+      if (id === eventStore.postToEdit?.id) {
+        eventStore.setForEdit(null);
+      }
+
       await api.delete(`/api/`, {
         data: { id },
       });
